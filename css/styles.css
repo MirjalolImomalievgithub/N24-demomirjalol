@@ -81,6 +81,7 @@ img {
   display: inline-block;
   line-height: normal;
   padding: 13px 20px;
+  border: 0;
   border-radius: 10px;
   font-size: 16px;
   font-weight: 500;
@@ -99,6 +100,19 @@ img {
 }
 
 .button-primary:active {
+  opacity: 0.6;
+}
+
+.button-orange {
+  background-color: #f78b3b;
+  color: #fff;
+}
+
+.button-orange:hover {
+  opacity: 0.8;
+}
+
+.button-orange:active {
   opacity: 0.6;
 }
 
@@ -296,5 +310,21 @@ img {
   color: #5e5f61;
 }
 
-.article-card-source {
+
+/* NOTIFICATION-CTA */
+.notification-cta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 70px 25px 25px;
+  border-radius: 10px;
+  margin: 60px 75px;
+  background-color: #ffd7ba;
+}
+
+.notification-cta-text {
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 500;
+  color: #000;
 }
